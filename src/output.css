@@ -554,20 +554,12 @@ video {
   display: none;
 }
 
-.mt-\[\] {
-  margin-top: ;
+.relative {
+  position: relative;
 }
 
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
-.ml-\[\] {
-  margin-left: ;
-}
-
-.ml-\[50px\] {
-  margin-left: 50px;
+.-top-\[150px\] {
+  top: -150px;
 }
 
 .ml-\[70px\] {
@@ -578,12 +570,28 @@ video {
   margin-left: 80px;
 }
 
-.mt-\[90px\] {
-  margin-top: 90px;
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .mt-\[20px\] {
   margin-top: 20px;
+}
+
+.mt-\[90px\] {
+  margin-top: 90px;
 }
 
 .flex {
@@ -594,28 +602,12 @@ video {
   height: 50px;
 }
 
-.h-\[300px\] {
-  height: 300px;
-}
-
-.h-\[200px\] {
-  height: 200px;
-}
-
-.w-\[\] {
-  width: ;
+.w-\[1200px\] {
+  width: 1200px;
 }
 
 .w-\[150px\] {
   width: 150px;
-}
-
-.w-\[1200pc\] {
-  width: 1200pc;
-}
-
-.w-\[1200px\] {
-  width: 1200px;
 }
 
 .w-\[200px\] {
@@ -655,21 +647,6 @@ video {
   background-color: rgb(26 62 62 / var(--tw-bg-opacity, 1));
 }
 
-.bg-gray-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(156 163 175 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(229 231 235 / var(--tw-bg-opacity, 1));
-}
-
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity, 1));
-}
-
 .bg-gray-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity, 1));
@@ -680,17 +657,22 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.p-\[20px\] {
-  padding: 20px;
-}
-
 .p-\[100px\] {
   padding: 100px;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -698,14 +680,29 @@ video {
   line-height: 2.5rem;
 }
 
-.text-white {
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-\[\#F2BE22\] {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  color: rgb(242 190 34 / var(--tw-text-opacity, 1));
 }
 
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 header{
