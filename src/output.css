@@ -630,8 +630,16 @@ video {
   margin-top: 5;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
+}
+
+.hidden {
+  display: none;
 }
 
 .h-\[150px\] {
@@ -865,4 +873,34 @@ header{
   background-image: url(./img/фоновое\ изображение\ \(1\).png);
   width: 380px;
   height: 500px;
+}
+
+@media (min-width: 1024px) {
+  .lg\:ml-\[80px\] {
+    margin-left: 80px;
+  }
+
+  .lg\:ml-0 {
+    margin-left: 0px;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .lg\:ml-\[560px\] {
+    margin-left: 560px;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-\[650px\] {
+    width: 650px;
+  }
+
+  .lg\:text-start {
+    text-align: start;
+  }
 }
